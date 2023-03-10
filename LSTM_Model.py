@@ -126,7 +126,7 @@ def plotting(prediction, y_test, len_data_train, url_data):
 # visualize_dataSet('./AAPL (1).csv')
 
 # get the data_set
-dataSet = get_data_set('./data_set/AAPL (1).csv')
+dataSet = get_data_set('./AAPL (1).csv')
 
 # the number of rows to train model
 len_data_train = get_number_train(dataSet)
