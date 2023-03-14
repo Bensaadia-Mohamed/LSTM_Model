@@ -13,10 +13,8 @@ plt.style.use("fivethirtyeight")
 
 
 def visualize_dataSet(url_data):
-
     # visualize the closing price
     df = pd.read_csv(url_data)
-
     plt.figure(figsize=(16, 8))
     plt.title("Close Price History")
     plt.plot(df["Close"])
@@ -149,4 +147,4 @@ prediction = scaler.inverse_transform(prediction)
 
 # plotting.csv")
 
-plotting(prediction, y_test, len_data_train, "./data_set/AAPL(1)")
+plotting(prediction, y_test, len_data_train, "./AAPL (1).csv")
